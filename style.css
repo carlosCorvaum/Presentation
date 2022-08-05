@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+.painel{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: #2e2e2e;
+text-align: left;
+
+    
+}
+    
+.skill-box {
+
+    margin: 10px;    
+    border: 3px solid black;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    display: -ms-inline-grid;
+    list-style-type: none;
+
+}
+.present{
+background-color: blue;
+
+
+}
+
+
+
+.typing{ 
+border-right: 1px solid white;
+color: yellowgreen;
+font-size:30px;
+font-family: monospace;
+white-space: nowrap;
+overflow: hidden;
+}
+
+.animation {
+    animation: typeStyle 500ms infinite normal,typingg steps(22) 3s 1s normal;
+}
+
+@keyframes typingg {
+    from{
+        width: 0;
+    }
+    to{
+        width: 14em;
+    }
+}
+
+@keyframes typeStyle {
+    
+from {
+    border-right-color: white;
+}
+to{
+    border-right-color: transparent;
+}
+
+}
