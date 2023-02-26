@@ -1,38 +1,121 @@
 <html>
 <!DOCTYPE html>
+<meta name="description" content="site pessoal dev">
+<meta name="keywords" content="portifolio,pessoal">
+<meta name="author" content="carlos corvaum">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="topnav.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="projetos.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="contato.css" media="screen" />
+<meta charset="utf-8">
 <title>ola</title>
 
 
 <body>
 
+    <header>
+        <nav>
+        </nav>
+    </header>
+    <div class="topnav">
+        <a class="active" href="#inicio">Início</a>
+        <a href="#sobre-mim">Sobre mim</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contatos">Contatos</a>
+    </div>
+
     <div class="painel">
-
-        <p class="typing animation">Ola, eu sou o Carlos =)</p>
-
-    </div>
-
-
-    </div>
-
-    <div class="present">
-
-
-        
+        <h1 class="typing">Ola, eu sou o Carlos =)</h1>
     </div>
 
 
 
+    <section class="present">
+
+        <img class="figure" src="imgs/retro.png" alt="Image">
+        <div class="comp">
+            <p>
+                Curso Sistemas de informações na PUC Minas, estou no 4 periodo.<br> <br>
+
+                Familiaridade com:<br>
+                -Java <br>
+                -Typescript<br>
+                -Node.js (estudando atualmente)<br>
+                -mongoDB<br>
+                -HTML5(HTML,CSS,JS)<br>
+                -mySQL<br>
+            <p>
+                Conhecimentos em:<br>
+                -Restful APIs<br>
+                -Springboot(Java)<br>
+                -Express (Node)<br>
+                -Git <br> </p>
+
+            <p>
+                Competencias:<br>
+                -Versatil<br>
+                -Otima comunicação<br>
+                -Conhecimento em finanças.<br>
+                -Conhecimento em metodologias ageis (Scrum/Kanban)<br>
+
+            </p>
+            <button id="btn">Não clique aqui!</button>
+        </div>
+
+    </section>
+
+    <div>  </div>
+    <div class="linha"></div>
+
+    <section class="containers">
+
+        <div class="card">
+            <div class="card2">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card2">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card2">
+            </div>
+        </div>
+    </section>
+    <div class="linha2"></div>
 
 
 
+    <section id="contato">
+        <article class="crow_img">
+            <img class="crow" src="imgs/avatar.png" alt="Image">
+        </article>
+
+        <form class="formulario" action="">
+
+            <label for="Nome">Nome</label>
+            <input id="Nome" type="text" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            <input type="button" value="Enviar">
 
 
+        </form>
+
+    </section>
 
 
+    <div class="footer">
 
 
+    </div>
 
+
+    <script src="./script.js"></script>
 </body>
 
 

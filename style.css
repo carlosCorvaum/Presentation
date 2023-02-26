@@ -1,67 +1,154 @@
-body{
-    margin: 0;
-}
-.painel{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    background-color: #2e2e2e;
-text-align: left;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto&display=swap');
 
-    
-}
-    
-.skill-box {
-
-    margin: 10px;    
-    border: 3px solid black;
-    background-color: white;
-    width: 300px;
-    height: 300px;
-    display: -ms-inline-grid;
-    list-style-type: none;
-
-}
-.present{
-background-color: blue;
-
-
+*{
+  box-sizing: border-box;
 }
 
-
-
-.typing{ 
-border-right: 1px solid white;
-color: yellowgreen;
-font-size:30px;
-font-family: monospace;
-white-space: nowrap;
-overflow: hidden;
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #e5e1d7;
 }
 
-.animation {
-    animation: typeStyle 500ms infinite normal,typingg steps(22) 3s 1s normal;
+.painel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  background-color: #2e2e2e;
 }
 
-@keyframes typingg {
-    from{
-        width: 0;
-    }
-    to{
-        width: 14em;
-    }
+.present {
+  background-color: #e5e1d7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes typeStyle {
-    
-from {
-    border-right-color: white;
-}
-to{
-    border-right-color: transparent;
+.figure {
+  width: 734px;
+  height: 525x;
 }
 
+.comp {
+  padding-top: 2%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+h1::after {
+  content: '|';
+  animation: typing .6s infinite;
+  color: aliceblue;
+  margin-left: -1.5%;
+}
+
+.typing {
+  color: #4ab348;
+  font-size: 30px;
+  font-family: 'Fira Code', monospace;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+#btn.comp {
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+
+}
+
+#btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 24px 140px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  font-family: 'Fredoka One';
+}
+
+#btn:active {
+  transform: translateY(0px);
+}
+
+
+@keyframes typing {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+
+  }
+}
+
+@media screen and (max-width:1200px) {
+
+  .present {
+    display: list-item;
+
+  }
+
+  .comp {
+    background-color: #e5e1d7;
+  }
+}
+
+
+
+p {
+  font-family: Georgia, serif;
+}
+
+.linha {
+  
+
+  content: '';
+  height: 2px;
+  background-color: black;
+  float: right;
+margin-top: 15px;
+  position: relative;
+  width: 65%;
+
+}
+
+.linha2 {
+  content: '';
+  height: 2px;
+  background-color: black;
+
+  position: relative;
+  width: 65%;
+
+}
+
+.footer {
+  background-color: #3B5460;
+width: 100%;
+  height: 50px;
 }
