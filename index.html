@@ -16,23 +16,20 @@
 <body>
 
     <header>
-        <nav>
-        </nav>
-    </header>
     <div class="topnav">
-        <a class="active" href="#inicio">Início</a>
-        <a href="#sobre-mim">Sobre mim</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#contatos">Contatos</a>
+        <a class="active" href="#painel">Início</a>
+        <a href="#present">Sobre mim</a>
+        <a href="#linha">Projetos</a>
+        <a href="#contato">Contatos</a>
     </div>
-
-    <div class="painel">
+</header>
+    <div id="painel">
         <h1 class="typing">Ola, eu sou o Carlos =)</h1>
     </div>
 
 
 
-    <section class="present">
+    <section id="present">
 
         <img class="figure" src="imgs/retro.png" alt="Image">
         <div class="comp">
@@ -41,16 +38,16 @@
 
                 Familiaridade com:<br>
                 -Java <br>
-                -Typescript<br>
                 -Node.js (estudando atualmente)<br>
-                -mongoDB<br>
+                -MongoDB<br>
+                -PostgreSQL<br>
+                -Typescript<br>
                 -HTML5(HTML,CSS,JS)<br>
-                -mySQL<br>
             <p>
                 Conhecimentos em:<br>
                 -Restful APIs<br>
                 -Springboot(Java)<br>
-                -Express (Node)<br>
+                -Express (Node.js)<br>
                 -Git <br> </p>
 
             <p>
@@ -66,10 +63,10 @@
 
     </section>
 
-    <div>  </div>
-    <div class="linha"></div>
+    
+    <div id="linha"></div>
 
-    <section class="containers">
+    <section id="containers">
 
         <div class="card">
             <div class="card2">
@@ -84,22 +81,23 @@
             </div>
         </div>
     </section>
-    <div class="linha2"></div>
+    
+    <div id="linha2"></div>
 
 
 
     <section id="contato">
         <article class="crow_img">
-            <img class="crow" src="imgs/avatar.png" alt="Image">
+            <img class="crow" src="imgs/avatar.png"action="https://api.staticforms.xyz/submit" method="post" alt="Image">
         </article>
 
-        <form class="formulario" action="">
+        <form class="formulario" action="https://api.staticforms.xyz/submit" method="post">
 
-            <label for="Nome">Nome</label>
+            <label for="Nome">Nome:</label>
             <input id="Nome" type="text" required>
-            <label for="email">Email</label>
+            <label for="email">Email:</label>
             <input type="email" name="email" id="email" required>
-            <label for="mensagem">Mensagem</label>
+            <label for="mensagem">Mensagem:</label>
             <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
             <input type="button" value="Enviar">
 

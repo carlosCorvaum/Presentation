@@ -7,13 +7,13 @@ function typing(elemento) {
   const textArray = elemento.innerHTML.split('');
   elemento.innerHTML = '';
   textArray.forEach((letra, i) => {
-    setTimeout(() => elemento.innerHTML += letra, 180 * i);
+    setTimeout(() => elemento.innerHTML += letra, 170 * i);
   });
 }
 
 
-var links = document.querySelectorAll('.topnav a');
 
+var links = document.querySelectorAll('.topnav a');
 // Adiciona um evento de clique a cada link
 links.forEach(function (link) {
   link.addEventListener('click', function () {

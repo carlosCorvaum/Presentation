@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto&display=swap');
 
+
 *{
   box-sizing: border-box;
 }
@@ -13,7 +14,7 @@ body {
   background-color: #e5e1d7;
 }
 
-.painel {
+#painel {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +22,7 @@ body {
   background-color: #2e2e2e;
 }
 
-.present {
+#present {
   background-color: #e5e1d7;
   display: flex;
   flex-direction: row;
@@ -108,15 +109,17 @@ h1::after {
 
 @media screen and (max-width:1200px) {
 
-  .present {
+  #present {
     display: list-item;
 
+
+    }
   }
 
   .comp {
     background-color: #e5e1d7;
   }
-}
+
 
 
 
@@ -124,31 +127,38 @@ p {
   font-family: Georgia, serif;
 }
 
-.linha {
+#linha {
   
 
   content: '';
-  height: 2px;
+  height: 3px;
   background-color: black;
   float: right;
-margin-top: 15px;
+  margin-top: 15px;
   position: relative;
   width: 65%;
+  border-radius: 200px;
 
 }
 
-.linha2 {
+#linha2 {
   content: '';
-  height: 2px;
+  height: 3px;
   background-color: black;
-
   position: relative;
   width: 65%;
+  border-radius: 200px;
 
 }
 
 .footer {
   background-color: #3B5460;
 width: 100%;
-  height: 50px;
+  height: 150px;
 }
+
+.figure{
+
+
+}
+

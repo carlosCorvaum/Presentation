@@ -1,4 +1,4 @@
-.containers{
+#containers{
     background-color: #e5e1d7;
     display: flex;
     justify-content: center;
@@ -67,7 +67,7 @@
 
 
    @media screen and (max-width:1200px) {
-    .containers{
+    #containers{
         display:block;
       width: 100%;
       align-self: center;
