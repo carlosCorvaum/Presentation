@@ -3,28 +3,33 @@
 <meta name="description" content="site pessoal dev">
 <meta name="keywords" content="portifolio,pessoal">
 <meta name="author" content="carlos corvaum">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="topnav.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="projetos.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="contato.css" media="screen" />
-<meta charset="utf-8">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles/topnav.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles/projetos.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles/contato.css" media="screen" />
+    <link rel="stylesheet" href="https://kit.fontawesome.com/6b23d23e3f.css" crossorigin="anonymous">
+</head>
 <title>ola</title>
 
 
 <body>
 
     <header>
-    <div class="topnav">
-        <a class="active" href="#painel">Início</a>
-        <a href="#present">Sobre mim</a>
-        <a href="#linha">Projetos</a>
-        <a href="#contato">Contatos</a>
-    </div>
-</header>
+        <div class="topnav">
+            <a class="active" href="#painel">Início</a>
+            <a href="#present">Sobre mim</a>
+            <a href="#linha">Projetos</a>
+            <a href="#linha2">Contatos</a>
+        </div>
+    </header>
     <div id="painel">
         <h1 class="typing">Ola, eu sou o Carlos =)</h1>
+
     </div>
 
 
@@ -63,10 +68,13 @@
 
     </section>
 
-    
+
     <div id="linha"></div>
+    <h3 id="projects">PROJETOS DESTAQUES</h3>
 
     <section id="containers">
+
+
 
         <div class="card">
             <div class="card2">
@@ -81,15 +89,18 @@
             </div>
         </div>
     </section>
-    
+
     <div id="linha2"></div>
 
-
+    <h4 id="contact">Contato</h4>
 
     <section id="contato">
         <article class="crow_img">
-            <img class="crow" src="imgs/avatar.png"action="https://api.staticforms.xyz/submit" method="post" alt="Image">
+            <img class="crow" src="imgs/avatar.png" action="https://api.staticforms.xyz/submit" method="post"
+                alt="Image">
         </article>
+
+
 
         <form class="formulario" action="https://api.staticforms.xyz/submit" method="post">
 
@@ -106,14 +117,27 @@
 
     </section>
 
+    <i class="fa fa-linkedin" aria-hidden="true"></i>
+
 
     <div class="footer">
-
-
+       <nav>
+        <li>
+            <img class="linkIcon" src="https://freesvg.org/img/linkedin.png" width="30" height="30"> 
+            <a>/carlosCorvaum</a>
+        </li>
+        <li>
+            <img class="gitIcon" src="https://img.icons8.com/fluency/512/github.png" width="30" height="30">
+            <a>/carlosCorvaum</a>
+        </li>
+       </nav>
+       
+       
+       
     </div>
 
 
-    <script src="./script.js"></script>
+    <script src="controllers/script.js"></script>
 </body>
 
 
@@ -122,6 +146,7 @@
 
 
 <footer>
+
 </footer>
 
 </html>

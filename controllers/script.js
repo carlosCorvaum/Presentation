@@ -21,7 +21,6 @@ links.forEach(function (link) {
     links.forEach(function (link) {
       link.classList.remove('active');
     });
-
     // Adiciona a classe "active" ao link clicado
     this.classList.add('active');
   });

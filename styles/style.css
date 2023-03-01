@@ -18,6 +18,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   height: 80%;
   background-color: #2e2e2e;
 }
@@ -25,9 +26,8 @@ body {
 #present {
   background-color: #e5e1d7;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  
+  
 }
 
 .figure {
@@ -111,8 +111,7 @@ h1::after {
 
   #present {
     display: list-item;
-
-
+text-align: center;
     }
   }
 
@@ -120,12 +119,10 @@ h1::after {
     background-color: #e5e1d7;
   }
 
-
-
-
 p {
   font-family: Georgia, serif;
 }
+
 
 #linha {
   
@@ -151,14 +148,27 @@ p {
 
 }
 
+nav{
+padding:40px;
+background-color: #3B5460;  box-shadow: #2e2e2e;
+  box-shadow: inset 0px 10px 10px -10px rgba(0, 0, 0, 5);
+
+}
 .footer {
-  background-color: #3B5460;
 width: 100%;
   height: 150px;
+ align-content: end;
+ text-align: right;
+ z-index: 999;
+ 
+
 }
-
-.figure{
-
-
+a{
+  color: white;
+  font-size: 25px;
 }
-
+li{
+ list-style: none;
+  border: 10px;
+}
+  
