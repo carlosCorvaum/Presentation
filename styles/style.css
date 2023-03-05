@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto&display=swap');
 
 
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
 *{
   box-sizing: border-box;
 }
@@ -105,6 +111,9 @@ h1::after {
     opacity: 0;
 
   }
+
+
+  
 }
 
 @media screen and (max-width:1200px) {
